@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #f0f4f8;
+                font-family:  sans-serif;
+            }
+        .container{
+                display: flex;
+                flex-direction: column;
+                background: white;
+                padding: 25px;
+                background: #fff;
+                border-radius: 10px;
+                box-shadow: 0 15px rgba(0,0,0,0.1);
+                width: 300px;
+            }
+            .container h2{
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            input,button {
+                margin: 8px 0;
+                padding: 10px;
+                font-size: 14px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            button {
+                background: #4d60b6;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+</style>
+    </head>
+    <body>
+        <form class="container">
+            <h2>Register</h2>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <button type="submit">Register</button>
+    </body>
+</html>
